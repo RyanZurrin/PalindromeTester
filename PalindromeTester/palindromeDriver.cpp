@@ -9,9 +9,10 @@
 
 #include <iostream>
 #include <cctype>
+#include <cstring>
 
 const int SIZE = 500;
-static struct palindrome
+struct palindrome
 {
 	char sentence[SIZE];
 	bool isPalindrome;
